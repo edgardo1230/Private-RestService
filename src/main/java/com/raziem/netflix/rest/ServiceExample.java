@@ -10,6 +10,8 @@ import org.springframework.web.bind.annotation.RestController;
 public class ServiceExample {
 	
 	 @Value("${rest.service.cloud.config.example}")
+	// @Value("GitRepository example value for privates service")
+
 	 String valueExample = null;	
 		
 	 private static Logger log = LoggerFactory.getLogger(ServiceExample.class);	
